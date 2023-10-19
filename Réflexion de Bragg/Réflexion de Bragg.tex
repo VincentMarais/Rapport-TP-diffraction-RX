@@ -1,0 +1,255 @@
+
+
+
+
+
+
+
+\subsubsection{Calcul des longueur d'onde des raies $K_{\alpha}$ et $K_{\beta}$ émis par le molybdène}
+
+
+Tout d'abord, en utilisant le tableau \ref{tab: Tableau des nergies de niveaux lectroniques du Molybdne et du Zirconium}, nous pouvons déduire l'énergie du photon émis par la transition électronique $\Delta E(eV)$. 
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|l|c|c|c|c|}
+		\hline
+		\textbf{Energie des niveaux électroniques (keV)} & K     & $L_{\mathrm{III}}$ &$L_{\mathrm{II}}$ & $M_{\mathrm{III}}$ \\ \hline
+		Molybdène                                        & 20.03 & 2.56 & 2.66 & 0.42 \\ \hline
+		Zirconium                                        & 18.02 &      &      &      \\ \hline
+	\end{tabular}
+	\caption{Énergies des niveaux électroniques du molybdène et du zirconium}
+	\label{tab: Tableau des nergies de niveaux lectroniques du Molybdne et du Zirconium}
+\end{table}
+
+
+Exemple pour la transition électronique $L_{\mathrm{III}} \to K$ pour le molybdène, on a : 
+\vspace{0.2cm}
+\begin{equation*}	
+	\begin{split}
+		\Delta E  & = E(K) - E(L_{\mathrm{III}})  \\
+		& = 20.06 - 2.56  \\
+		& = 17.47keV
+	\end{split}	
+\end{equation*}
+
+Ensuite, en appliquant l'équation \ref{eq: Energie_longueur_donde}, on obtient la longueur d'onde du photon émit lors d'une transition électronique.
+
+\begin{equation}\label{eq: Energie_longueur_donde}
+	\Delta E(eV) = \frac{1.24}{\lambda (\mu m)}
+\end{equation}
+
+\newpage
+Et enfin, on réalise le tableau \ref{tab: Transition nergitique en les diffrentes couche du molybdne et les diffrentes longueurs donde misse par les transitions}. 
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multicolumn{1}{|l|}{\textbf{Transition}} & \multicolumn{1}{l|}{\textbf{Energie (keV)}} & \multicolumn{1}{l|}{\textbf{Longueur d'onde}} \\ \hline
+		$L_{\mathrm{III}} \to K \ (K_{\alpha_1}) $                    & 17.47                                       & 0.709 \AA                                       \\ \hline
+		$L_{\mathrm{II}} \to K \ (K_{\alpha_2}) $                      & 17.37                                       & 0.713 \AA                                       \\ \hline
+		$M_{\mathrm{III}} \to K \ (K_{\beta}) $                         & 19.61                                       & 0.632 \AA                                       \\ \hline
+	\end{tabular}
+	\caption{\centering Longueurs d’onde des rayons X émissent par le molybdène lors transition électronique $ K_{\alpha} $ et $ K_{\beta} $}
+	\label{tab: Transition nergitique en les diffrentes couche du molybdne et les diffrentes longueurs donde misse par les transitions}
+\end{table}
+
+
+
+
+
+\subsubsection{Mesure de l’intensité ($I$) en fonction de l’angle ($\theta$) :}
+Dans cette partie, nous allons analyser le plan (200) un monocristal de NaCl à l'aide d'un système de diffraction des rayons X (figure \ref{fig:machine-diffraction-rx})
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"Réflexion de Bragg/Machine diffraction RX"}
+	\caption{\centering Photo du système de diffraction des rayons X avec (1) : collimateur, (2) : filtre de Zn, (3) : monocristal de NaCl, (4): tube compteur, (5) : angle $\theta$, (6) : rayon X, (7) : plan (200) du monocristal de NaCl }
+	\label{fig:machine-diffraction-rx}
+\end{figure}
+
+
+
+Pour analyser le plan (200) du monocristal NaCl, le système de diffraction des rayons X déplace le système \{tube compteur + monocristal\} d'un angle $\theta$. Pour notre analyse, nous aurons $\theta$ compris dans l'intervalle $[4^\circ, 24^\circ]$ avec un pas de $\Delta \beta = 0.1^\circ$.
+
+
+
+
+
+
+\newpage
+
+L'objectif de cette partie est déterminer le paramètre de maille $a_0$ de la maille de NaCl représentée sur le figure \ref{fig:cristalnacl}
+\begin{figure}[h!]
+	\centering
+	\input{Tikz/Cristal/NaCl}
+	\caption{\centering Maille de NaCl de paramètre de maille $a_0$, $\left(\vec{a}, \vec{b}, \vec{c}\right)$ : base directe du réseau réel de la maille de NaCl.}
+	\label{fig:cristalnacl}
+\end{figure}
+
+
+
+
+
+
+
+\begin{flushleft}
+	\textbf{Interprétation avant expérience}
+\end{flushleft}
+
+
+
+Dans un premier temps, nous pouvons affirmer que nous obtenons directement une transition $K_{\beta}$, car la longueur d'onde émise par le photon lors de cette transition est la plus courte par rapport à celle émise lors d'une transition $K_{\alpha_1}$ ou $K_{\alpha_2}$, conformément à la loi de Bragg (équation \ref{eq:Loi_de_Bragg}). La nécessité d'un angle faible pour la raie $K_{\beta}$ justifie donc que la première raie observée est bien une $K_{\beta}$.
+
+Dans un second temps, nous avons l'angle $\theta_{K_\beta}$ pour la première raie de $K_{\beta}$ et $\theta_2$ pour l'angle de la seconde raie. Or, nous pouvons établir l'inégalité suivante :
+\begin{equation} \label{eq:Inegalite_theta}
+	\theta_2 < 2\theta_{K_\beta}
+\end{equation}
+
+Par conséquent, d'après la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) et l'inégalité \ref{eq:Inegalite_theta}, nous n'avons pas atteint la raie $K_{\beta}$ où $n=2$. Nécessairement, nous observons la raie $K_{\alpha}$ sur la figure \ref{fig:spectre-de-diffraction-de-nacl}.
+
+\newpage
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"Réflexion de Bragg/Spectre de diffraction de NaCl"}
+	\caption{\centering Spectre en intensité du monocristal en fonction de l'angle $\beta$ équivalent à l'angle $\theta$ de la figure \ref{fig:machine-diffraction-rx} \textbf{courbe noir} : Spectre sans le filtre Zn , {\color{red}\textbf{courbe rouge}} : Spectre avec le filtre Zn }
+	\label{fig:spectre-de-diffraction-de-nacl}
+\end{figure}
+
+
+\begin{flushleft}
+	Nous parlons de spectre en intensité avec l'intensité du rayon X incident en proportionnel aux nombre de coup par second comptabilisé par le tube de comptage présent sur la figure \ref{fig:machine-diffraction-rx}.
+	
+	D'autre part, en observant la figure \ref{fig:spectre-de-diffraction-de-nacl}, nous obtenons le tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200}.
+\end{flushleft}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		$\theta$ (°) & $\sin(\theta)$ &$K_{\alpha}$ ? ou $K_{\beta}$ ? & n & $n \times \lambda $ (pm) \\ \hline
+		6.4       & 0.111      & $K_{\beta}$                     & 1 & 63.2 \\ \hline
+		7.2       & 0.125      &$K_{\alpha}$                    & 1 & 70.9 \\ \hline
+		12.9      & 0.223      & $K_{\beta}$                     & 2  & 126.4\\ \hline
+		14.5      & 0.250      &$K_{\alpha}$                    & 2  & 141.8\\ \hline
+		19.6      & 0.335      & $K_{\beta}$                     & 3  & 189.6\\ \hline
+		22.1      & 0.376      &$K_{\alpha}$                    & 3  & 212.7 \\ \hline
+	\end{tabular}	
+	\caption{Pics de diffractions et d'interférences du cristal NaCl sur le plan (200)}
+	\label{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200}
+\end{table}
+
+
+
+\newpage
+De cela on trace la figure \ref{fig:courbetendance} et l'aide du programme Python (cf figure \ref{fig:photocode})
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.1\linewidth]{"Réflexion de Bragg/Courbe_tendance"}
+	\caption{Courbe de tendance de $n \times \lambda $(pm) et fonction de 	$\sin(\theta)$ }
+	\label{fig:courbetendance}
+\end{figure}
+
+\begin{flushleft}
+	Ensuite de cette courbe nous pouvons déduire le paramètre de maille $a_0$ du monocristal car d'après la figure \ref{fig:cristalnacl} on a :
+	
+	\begin{equation}\label{eq: paramètre de maille et d_200}
+		a_0=2d_{200}
+	\end{equation}
+
+	
+De plus, si on applique la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) au plan $(200)$ du monocristal de NaCl, on obtient : 
+
+\begin{equation} \label{eq:Loi_de_Bragg_NaCl_200}
+	\sin (\theta ) = \frac{n \lambda }{2 d_{200}}
+\end{equation}
+	
+	
+Donc, d'après \ref{eq: paramètre de maille et d_200} l'équation \ref{eq:Loi_de_Bragg_NaCl_200} devient :
+	
+	\begin{equation}\label{eq: Bragg et paramètre de maille}
+		n \times \lambda = a_0sin(\theta)
+	\end{equation}
+	
+	
+	Donc d'après l'équation \ref{eq: Bragg et paramètre de maille}, $a_0$ est le coefficient directeur de la courbe  de tendance tracer sur la figure \ref{fig:courbetendance}, on en déduit donc :
+	
+	\begin{equation}
+		\boxed{a_0 = 564.6 \ pm}
+	\end{equation}
+	
+
+\end{flushleft}
+\newpage
+
+%%% Interprétation 
+\begin{flushleft}
+	\textbf{Vérification :}
+	Si on représente le plan (200) du monocristal de NaCL vue de dessus on obtient la figure \ref{fig:Plan (200) du monocristal de NaCl vu de dessus}
+	\input{Tikz/Cristal/Plan_200}
+	
+	D'après la figure \ref{fig:Plan (200) du monocristal de NaCl vu de dessus}, on en déduit que :
+	
+	\begin{equation}
+		a_0 = 2r_{Na^+}+2r_{Cl^-}
+	\end{equation}
+
+avec 
+\begin{itemize}
+	\item $r_{Na^+}= 98 \ pm$
+	\item $r_{Cl^-}= 181 \ pm $	
+\end{itemize}
+
+
+\vspace{0.2cm}
+\textbf{Application numérique :}
+	
+	\begin{equation}
+		a_0 = 558 \ pm
+	\end{equation}
+	
+On a un écart de $ \pm 6.6\  pm$,  soit une de erreur de $1.1 \ \%$
+
+\textbf{Interprétation :}
+
+D'après la figure \ref{fig:courbetendance} nous obtenons une courbe de tendance de la forme :
+
+\begin{equation}
+	a x + b
+\end{equation}
+où :
+\begin{itemize}
+	\item $a =564.6 \ pm$ 
+	\item $b = 0.4722 \ pm$
+\end{itemize}
+\vspace{0.2cm}
+Ainsi, cela signifie que lorsque nous avons un rayon X qui arrive de manière colinéaire au plan (200) avec un angle $\theta = 0^\circ$, nous obtenons $n \times \lambda = 0.4722 \ pm$. Il en résulte qu'il existe un rayon X diffracté par le plan (200), ce qui semble incohérent. Cependant, il est possible d'admettre une certaine incertitude sur l'angle $\theta$, ce qui expliquerait pourquoi notre valeur de $b$ n'est pas nulle.
+
+\newpage
+On calcule le rapport pour chaque ordre de diffraction $n$:
+
+\begin{equation}
+	R = \frac{\sin(\theta_{K_{\alpha}})}{\sin(\theta_{K_{\beta}})}
+\end{equation}
+
+
+L'intérêt du filtre de Zn consiste à supprimer les raies présentant la plus forte énergie. Dans le cas d'une analyse plus complexe de plusieurs plans du cristal, cela nous permet de réduire la quantité d'informations reçues par le logiciel et facilite ainsi l'interprétation de la courbe obtenue. 
+$K_{\beta}$ à une énergie supérieure à l'énergie des électrons de cœurs $ K $ en comme le filtre de Zn diminue l'énergie de l'électron qu'il transmet donc on favorise le pic de $K_{\alpha}$.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		R & n \\ \hline
+		1.126 & 1 \\ \hline
+		1.121& 2 \\ \hline
+		1.122& 3 \\ \hline
+	\end{tabular}
+	\caption{R en fonction de n}
+	\label{tab:R en fonction de n}
+\end{table}
+
+
+\end{flushleft}

@@ -1,0 +1,213 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\pgfplotsset{compat=newest}
+
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{amsfonts} % Ensemble mathématique
+\usepackage{amsmath} % Environnement mathématique équation
+\usetikzlibrary{patterns}
+% Configuration de la page
+\usepackage{multirow} % Utile pour les tableaux
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{array}
+
+% Dessin en Latex
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{matrix, calc, backgrounds, decorations.pathreplacing}
+\usetikzlibrary{3d}
+
+% Couleur : 
+
+\definecolor{myred}{rgb}{1,0,0}
+
+\usepackage{listings}
+\geometry{
+	top=2cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm,
+	headheight=15pt,
+	includeheadfoot
+}
+
+% Configuration des en-têtes et des pieds de page
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\fancyhead[L]{ \textbf{Diffraction des rayons X}}
+
+
+\fancyfoot[C]{Polytech Clermont-Ferrand -- RX GP4A 2023-2024 \hspace{0.5cm} \textbf{\thepage}}
+
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\fancyfoot[C]{Polytech Clermont-Ferrand -- RX GP4A 2023-2024 \hspace{0.5cm} \textbf{\thepage}}
+}
+
+
+\renewcommand{\footrule}{\hrulefill} % Dessine la barre horizontale
+
+% Configuration des titres de sections
+\titleformat{\section}[hang]{\normalfont\large\bfseries}{\thesection.}{0.5em}{}
+
+\setlength{\parskip}{0.5em}
+\title{TP diffraction des rayons X}
+\author{\textup{Vincent MARAIS \\
+		Yanis MAURICE}}
+
+
+% Début du document
+\begin{document}
+	
+\input{Premier_page/Title.tex}
+
+\pagenumbering{roman} % numérotation romaine pour les pages préliminaires
+\newpage
+\tableofcontents
+
+\newpage
+\listoffigures
+\listoftables
+
+\newpage
+	% Contenu du document
+	
+
+
+\clearpage
+\pagenumbering{arabic}
+
+	
+
+	
+	
+	
+
+\section{Introduction}
+	
+Durant ce TP, nous avons été introduits à deux méthodes de diffraction des rayons X pour pouvoir étudier la composition d’un matériau.
+\begin{flushleft}
+	\textbf{Objectifs du TP :}
+	
+	\textbf{Partie 1 : Réflexion de Bragg :}
+	\begin{itemize}
+		\item Étude de la réflexion de Bragg sur un monocristal de NaCl et de LiF avec le rayonnement X caractéristique du molybdène.
+		\item Détermination de la constante de réseau $a_0$ du NaCl et du LiF.
+		\item Vérification de la loi de la réflexion de Bragg.
+	\end{itemize}
+
+\vspace{0.2cm}
+	\textbf{Partie 2 : Méthode de Debye-Scherrer :}
+	\begin{itemize}
+		\item Étude d’un cliché de diffraction.
+		\item Détermination de la poudre.
+		\item Calcul de différents paramètres cristallins : distance réticulaire, paramètres de maille, mode de réseau.
+	\end{itemize}
+\end{flushleft}
+
+
+\vspace{-0.4cm}
+\section{Résultats}
+
+\subsection{Réflexion de Bragg}
+
+
+
+\input{Réflexion de Bragg/Réflexion de Bragg.tex}
+
+\newpage
+
+
+
+
+
+
+
+
+
+
+\subsection{Méthode de Debye-Scherrer ou méthode des poudres}
+\vspace{0.2cm}
+
+\input{Méthode_de_Debye_Scherrer/Méthode de Debye-Scherrer ou méthode des poudres.tex}
+
+\newpage
+
+
+
+
+
+
+
+
+
+\section{Conclusion}	
+
+En résumé, au cours de ce TP, nous avons examiné deux techniques utilisant la diffraction des rayons X pour déterminer les caractéristiques cristallines d'un échantillon. La première méthode consiste à étudier la réflexion de Bragg, que nous avons appliquée à un monocristal, tandis que la seconde méthode, connue sous le nom de méthode de Debye-Scherrer ou méthode des poudres, a été employée. Grâce à ces méthodes, nous sommes en mesure d'identifier le matériau présent, son réseau cristallin, ainsi que le paramètre de maille.
+
+
+
+
+
+
+\newpage 
+\section{Annexes}
+\subsection{Loi de Bragg}
+
+La loi de Bragg pour le plan (khl) du cristal étudié, nous donne :
+
+\begin{equation} \label{eq:Loi_de_Bragg}
+	\sin (\theta ) = \frac{n \lambda }{2 d_{hkl}}
+\end{equation}
+
+où:
+
+\begin{itemize}
+	
+		\item $\left ( h,k,l \right ) \in \mathbb{Z}^3$ : indice de Miller ;
+	
+	\item $(hkl)$ : plan réticulaire du cristal étudié ;
+	
+	\item $d_{hkl}$ : distance interréticulaire ;
+	 
+	
+	\item $\theta $ : l'angle de diffraction du rayon X sur le plan $(hkl)$ du cristal étudié en ° ;
+	
+	\item $n \in \mathbb{N}$ : l'ordre de diffraction ;
+	
+	\item $\lambda $ : longueur d'onde du rayon X diffracté (\AA).
+\end{itemize}
+\subsection{Incertitude}
+Soit une grandeur physique $f$ qui dépend des grandeurs physique $(x,y,...)$ 
+
+La formule de propagation des erreurs nous donne l'incertitude de f :
+
+\begin{equation}\label{eq: Type B}
+	\Delta f(x,y,...) = \sqrt{\left ( \Delta x \right )^2 \left ( \frac{\partial f}{\partial x} \right )^2 + \left ( \Delta y \right )^2 \left ( \frac{\partial f}{\partial y} \right )^2 + .... }
+\end{equation}
+
+\newpage
+\subsection{Programme Python}
+La figure \ref{fig:photocode} donne le programme Python utilisé pour réaliser la courbe de tendance de $n \times \lambda$ en fonction de $\sin(\theta)$
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{Python/Photo_code}
+	\caption{Programme Python de la courbe de tendance de $n \times \lambda$ en fonction de $\sin(\theta)$}
+	\label{fig:photocode}
+\end{figure}
+
+
+\end{document}

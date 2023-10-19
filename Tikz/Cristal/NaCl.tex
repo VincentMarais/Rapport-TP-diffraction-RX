@@ -1,0 +1,58 @@
+
+\tdplotsetmaincoords{75}{110} % Définir les angles de vue
+\begin{tikzpicture}[scale=2, tdplot_main_coords,axis/.style={->},thick]  
+	
+	\foreach \x in {0,1,2}
+	\foreach \y in {0,1,2}
+	\foreach \z in {0,1,2}
+	{
+		\draw[thick,opacity=1] (\x,0,\z) -- (\x,2,\z);
+		\draw[thick,opacity=1] (0,\y,\z) -- (2,\y,\z);
+		\draw[thick,opacity=1] (\x,\y,0) -- (\x,\y,2);
+	}
+	% --- labels for vertices
+	\foreach \x in {0,1,2}
+	\foreach \y in {0,1,2}
+	\foreach \z in {0,1,2}
+	{\draw[fill=gray!50] (\x,\y,\z) circle (0.3em);}    
+	
+	\foreach \x/\y in {1/0,2/1,1/2,0/1}
+	\foreach \z in {0,2}
+	{\draw[fill=orange] (\x,\y,\z) circle (0.4em);}
+	
+	\foreach \x/\y in {2/0,2/2,0/2,0/0}
+	\foreach \z in {1}
+	{\draw[fill=orange] (\x,\y,\z) circle (0.4em);}
+	
+	\foreach \x/\y in {1/0,2/1,1/2,0/1}
+	\foreach \z in {1}
+	{\draw[fill=gray!50] (\x,\y,\z) circle (0.3em);}
+	
+	\foreach \x/\y in {1/1}
+	\foreach \z in {0,2}
+	{\draw[fill=gray!50] (\x,\y,\z) circle (0.3em);}
+	
+	\foreach \x/\y in {1/1}
+	\foreach \z in {1}
+	{\draw[fill=orange] (\x,\y,\z) circle (0.4em) ;}
+	
+	
+	\draw[thick,->, red] (2,0,0) -- (0,	0,0) node[pos=0.65,anchor=west]{\(\vec{c}\)};
+	\draw[thick,->, red] (2,0,0) -- (2,2,0) node[pos=0.7, anchor=north]{\(\vec{b}\)};
+	\draw[thick,->, red] (2,0,0) -- (2,0,2) node[pos=0.9, anchor=west]{\(\vec{a}\)};
+	
+	\draw (2, -1, 1.5) node[circle,fill=orange,scale=0.5] {} node[anchor=south west] {Cl$^-$};  
+	
+	\draw (2, -1, 2) node[circle,fill=gray!50,scale=0.5] {} node[anchor=south west] {Na$^+$};  
+	
+	\filldraw[fill=green!50!black, opacity=0.5] (2,2,1) -- (0,2,1) -- (0,0,1) -- (2,0,1) -- cycle;
+	
+	\draw (2.5, 3, 2) node[anchor=south west, green!50!black] {(200)};  
+	
+	\draw[thick,-, blue] (2,2,0) -- (2,	2,1) node[pos=0.77,anchor=west]{\(d_{200}\)};
+	
+	\draw[thick,-, blue] (0,2,0) -- (0,	2,2) node[pos=0.3,anchor=west]{\(a_0\)};
+\end{tikzpicture}
+
+
+% Dans cet exemple, j'ai utilisé pos=1.1, ce qui place le "node" juste après la fin du vecteur (à 110% du chemin, pour ainsi dire). L'anchor=west signifie que le côté ouest (gauche) du "node" est aligné avec ce point.  %
