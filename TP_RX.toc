@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Résultats}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Réflexion de Bragg}{1}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Calcul des longueur d'onde des raies $K_{\alpha }$ et $K_{\beta }$ émis par le molybdène}{1}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Calcul des longueurs d'ondes des raies $K_{\alpha }$ et $K_{\beta }$ émis par le molybdène}{1}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Mesure de l’intensité ($I$) en fonction de l’angle ($\theta $) :}{2}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Méthode de Debye-Scherrer ou méthode des poudres}{8}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Principe de la méthode de Debye-Scherrer}{8}{subsubsection.2.2.1}%
@@ -12,5 +12,5 @@
 \contentsline {section}{\numberline {3}Conclusion}{13}{section.3}%
 \contentsline {section}{\numberline {4}Annexes}{14}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Loi de Bragg}{14}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Incertitude}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Incertitude de type B}{14}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Programme Python}{15}{subsection.4.3}%

@@ -1,6 +1,11 @@
 \subsubsection{Principe de la méthode de Debye-Scherrer}
 
-La méthode de Debye-Scherrer est utilisée pour déterminer la structure cristalline d'un matériau. Elle consiste à diriger un faisceau de rayons X monochromatiques sur un échantillon cristallin, ce qui provoque la diffraction des rayons X par les plans du réseau cristallin. En mesurant les angles de diffraction sur le film, on peut déterminer les distances interatomiques et la structure cristalline de l'échantillon.
+La méthode de Debye-Scherrer est employée pour déterminer la structure cristalline d'un matériau. Elle implique l'orientation d'un faisceau de rayons X monochromatiques vers un échantillon cristallin, induisant ainsi la diffraction des rayons X par les plans du réseau cristallin. En mesurant les angles de diffraction sur le film, il devient possible de calculer les distances interatomiques et de révéler la structure cristalline de l'échantillon. Enfin, une analyse de l'épaisseur des tâches sur le film nous permet d'établir une corrélation entre le diamètre des anneaux observés et la distance intermoléculaire du plan diffractant de différentes espèces chimiques.
+
+
+
+
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer}
@@ -14,9 +19,9 @@ La méthode de Debye-Scherrer est utilisée pour déterminer la structure crista
 \subsubsection{Incertitudes lié à la méthode de Debye-Scherrer}
 
 Cette méthode comporte plusieurs sources d'erreurs. La première provient d'un mauvais centrage de l'échantillon par rapport à l'axe optique du sytème \{fente + collimateur \}, ce qui engendre une incertitude sur l'angle $\theta$.
-Pour le calcul de l'incertitude de $\theta$ nous utiliserons les incertitudes de type B appliquer à notre étude (équation \ref{eq:TypeB}):
+Pour le calcul de l'incertitude de $\theta$ nous utiliserons les incertitudes de type B (équation \ref{eq: Type B}) appliquer à notre étude (équation \ref{eq:TypeB_theta}):
 
-\begin{equation}\label{eq:TypeB}
+\begin{equation}\label{eq:TypeB_theta}
 	\frac{\Delta \theta}{\theta} = \sqrt{\left ( \frac{\Delta \phi_{an}}{\phi_{an}} \right )^2 + \left ( \frac{\Delta \phi_{DS}}{\phi_{DS}} \right )^2 }
 \end{equation}
 
@@ -119,13 +124,13 @@ Ces valeurs de $(d_1, d_2, d_5)$ correspondent aux valeurs lié au NaCl donné p
 	On sait, d'après l'énoncé de  TP, que la maille de l'élément étudié est cubique. Notre objectif est alors de déterminer si cette maille présente une structure cubique faces centrées (CFC) ou une structure cubique centrée (CC).
 	
 	
-	Dans le cas d’une maille (CC), les indices de Miller $(h k l)$ doivent vérifier la condition
+	Dans le cas d’une maille (CFC), les indices de Miller $(h k l)$ doivent vérifier la condition
 	suivante afin que l’on observe le phénomène de diffraction : 
 	\begin{center} 
 		$\forall (h,k,l)\in \mathbb{Z}^3,$  $h,k,l$ ont la même parité 
 	\end{center}
 	
-	pour une  maille (CFC) les indices de Miller $(h k l)$ doivent vérifier la condition : 
+	pour une  maille (CC) les indices de Miller $(h k l)$ doivent vérifier la condition : 
 	
 	\begin{equation}
 		\forall (h,k,l)\in \mathbb{Z}^3, \ 	h + k + l = 2n, \ n \in \mathbb{N}
@@ -133,32 +138,32 @@ Ces valeurs de $(d_1, d_2, d_5)$ correspondent aux valeurs lié au NaCl donné p
 
 
 \newpage
-Le tableau \ref{tab:Listes des plans diffractants pour la structure (CC) et (CFC) (marqué d’un "OK")} répertorie les neuf premiers plans diffractants pour la structure (CC) et (CFC).
+Le tableau \ref{tab:Listes des plans diffractants pour la structure (CC) et (CFC) (marqué d’un "OK")} répertorie les neuf premiers plans diffractants pour la structure (CC) et (CFC) avec $f_{Na^+}$ le facteur de diffusion de $Na^+$ et $f_{Cl^-}$ le facteur de diffusion de $Cl^-$.
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 		\hline
-		\textbf{Indice plans $(h k l)$} & \textbf{$N=h^2+k^2+l^2$} & \textbf{(CFC)} & \textbf{(CC)} \\
+		\textbf{Indice plans $(h k l)$} & \textbf{$N=h^2+k^2+l^2$} & \textbf{(CC)} & \textbf{(CFC)} \\
 		\hline
-		1 0 0 & 1 & X & X \\
+		1 0 0 & 1 & 0 & 0 \\
 		\hline
-		1 1 0 & 2 & \textcolor{myred}{OK} & X \\
+		1 1 0 & 2 & \textcolor{myred}{OK }& 0 \\
 		\hline
-		1 1 1 & 3 & X & \textcolor{myred}{OK} \\
+		1 1 1 & 3 & 0 & \textcolor{myred}{OK } \\
 		\hline
-		2 0 0 & 4 & \textcolor{myred}{OK } & \textcolor{myred}{OK} \\
+		2 0 0 & 4 & \textcolor{myred}{OK } & \textcolor{myred}{OK } \\
 		\hline
-		2 1 0 & 5 & X & X \\
+		2 1 0 & 5 & 0 & 0 \\
 		\hline
-		2 1 1 & 6 & \textcolor{myred}{OK } & X \\
+		2 1 1 & 6 & \textcolor{myred}{OK } & 0 \\
 		\hline
 		2 2 0 & 8 & \textcolor{myred}{OK } & \textcolor{myred}{OK } \\
 		\hline
-		3 0 0 & 9 & X & X \\
+		3 0 0 & 9 & 0 & 0 \\
 		\hline
-		3 1 0 & 10 & \textcolor{myred}{OK } & X \\
+		3 1 0 & 10 & \textcolor{myred}{OK } & 0 \\
 		\hline
-		3 1 1 & 11 & X & \textcolor{myred}{OK } \\
+		3 1 1 & 11 & 0 & \textcolor{myred}{OK } \\
 		\hline
 		2 2 2 & 12 & \textcolor{myred}{OK } & \textcolor{myred}{OK } \\
 		\hline

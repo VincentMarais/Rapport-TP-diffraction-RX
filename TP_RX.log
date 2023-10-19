@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.7)  19 OCT 2023 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.7)  20 OCT 2023 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,23 +1223,23 @@ File: Réflexion de Bragg/Spectre de diffraction de NaCl.png Graphic file (type
  png)
 <use Réflexion de Bragg/Spectre de diffraction de NaCl.png>
 Package pdftex.def Info: Réflexion de Bragg/Spectre de diffraction de NaCl.png
-  used on input line 114.
+  used on input line 119.
 (pdftex.def)             Requested size: 483.69687pt x 259.78055pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-30.
+35.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 [4{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} 
 <./Réflexion de Bragg/Spectre de diffraction de NaCl.png>]
-<Réflexion de Bragg/Courbe_tendance.pdf, id=189, 1110.06725pt x 545.20491pt>
+<Réflexion de Bragg/Courbe_tendance.pdf, id=190, 1110.06725pt x 545.20491pt>
 File: Réflexion de Bragg/Courbe_tendance.pdf Graphic file (type pdf)
 <use Réflexion de Bragg/Courbe_tendance.pdf>
 Package pdftex.def Info: Réflexion de Bragg/Courbe_tendance.pdf  used on input
- line 150.
+ line 155.
 (pdftex.def)             Requested size: 532.0695pt x 261.32101pt.
 
-Overfull \hbox (48.37263pt too wide) in paragraph at lines 150--151
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
@@ -1247,50 +1247,50 @@ Overfull \hbox (48.37263pt too wide) in paragraph at lines 150--151
 [6]) [7]
 (Méthode_de_Debye_Scherrer/Méthode de Debye-Scherrer ou méthode des poudres.
 tex
-<Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png, id=266, 338.4645pt 
+<Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png, id=272, 338.4645pt 
 x 331.2375pt>
 File: Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png Graphic file (t
 ype png)
 <use Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png>
 Package pdftex.def Info: Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.
-png  used on input line 6.
+png  used on input line 11.
 (pdftex.def)             Requested size: 338.58632pt x 331.37819pt.
  [8 <./Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 83.
+LaTeX Warning: Command \r invalid in math mode on input line 88.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 83.
+LaTeX Warning: Command \r invalid in math mode on input line 88.
 
 [9]
 
-LaTeX Warning: Command \r invalid in math mode on input line 93.
+LaTeX Warning: Command \r invalid in math mode on input line 98.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 93.
+LaTeX Warning: Command \r invalid in math mode on input line 98.
 
 [10] [11]
 
-LaTeX Warning: Command \r invalid in math mode on input line 249.
+LaTeX Warning: Command \r invalid in math mode on input line 254.
 
 ) [12] [13] [14]
-<Python/Photo_code.png, id=323, 644.4075pt x 422.7795pt>
+<Python/Photo_code.png, id=329, 644.4075pt x 422.7795pt>
 File: Python/Photo_code.png Graphic file (type png)
 <use Python/Photo_code.png>
 Package pdftex.def Info: Python/Photo_code.png  used on input line 207.
 (pdftex.def)             Requested size: 483.69687pt x 317.35478pt.
  [15 <./Python/Photo_code.png>] (TP_RX.aux)
 Package rerunfilecheck Info: File `TP_RX.out' has not changed.
-(rerunfilecheck)             Checksum: 363E34D786A45FA572B0D033733B0D7C;3016.
+(rerunfilecheck)             Checksum: 86EEE0C1A888E1E7C21D50D814736B4F;3085.
  ) 
 Here is how much of TeX's memory you used:
  35938 strings out of 476315
- 829884 string characters out of 5787197
+ 829899 string characters out of 5787197
  1875068 words of memory out of 5000000
  55684 multiletter control sequences out of 15000+600000
  556264 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,16n,104p,728b,886s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,104p,875b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
 fb><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.p
@@ -1306,9 +1306,9 @@ Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/U
 sers/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Us
 ers/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on TP_RX.pdf (18 pages, 1978771 bytes).
+Output written on TP_RX.pdf (18 pages, 1982933 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
+ 423 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

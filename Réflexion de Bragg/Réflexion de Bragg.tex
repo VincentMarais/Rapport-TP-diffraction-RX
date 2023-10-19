@@ -5,7 +5,7 @@
 
 
 
-\subsubsection{Calcul des longueur d'onde des raies $K_{\alpha}$ et $K_{\beta}$ émis par le molybdène}
+\subsubsection{Calcul des longueurs d'ondes des raies $K_{\alpha}$ et $K_{\beta}$ émis par le molybdène}
 
 
 Tout d'abord, en utilisant le tableau \ref{tab: Tableau des nergies de niveaux lectroniques du Molybdne et du Zirconium}, nous pouvons déduire l'énergie du photon émis par la transition électronique $\Delta E(eV)$. 
@@ -14,9 +14,9 @@ Tout d'abord, en utilisant le tableau \ref{tab: Tableau des nergies de niveaux l
 	\centering
 	\begin{tabular}{|l|c|c|c|c|}
 		\hline
-		\textbf{Energie des niveaux électroniques (keV)} & K     & $L_{\mathrm{III}}$ &$L_{\mathrm{II}}$ & $M_{\mathrm{III}}$ \\ \hline
-		Molybdène                                        & 20.03 & 2.56 & 2.66 & 0.42 \\ \hline
-		Zirconium                                        & 18.02 &      &      &      \\ \hline
+		\textbf{Énergie des niveaux électroniques (keV)} & K     & $L_{\mathrm{III}}$ &$L_{\mathrm{II}}$ & $M_{\mathrm{III}}$ \\ \hline
+		Molybdène      (Mo)                                  & 20.03 & 2.56 & 2.66 & 0.42 \\ \hline
+		Zirconium      (Zn)                                  & 18.02 &      &      &      \\ \hline
 	\end{tabular}
 	\caption{Énergies des niveaux électroniques du molybdène et du zirconium}
 	\label{tab: Tableau des nergies de niveaux lectroniques du Molybdne et du Zirconium}
@@ -50,7 +50,7 @@ Et enfin, on réalise le tableau \ref{tab: Transition nergitique en les diffrent
 		$L_{\mathrm{II}} \to K \ (K_{\alpha_2}) $                      & 17.37                                       & 0.713 \AA                                       \\ \hline
 		$M_{\mathrm{III}} \to K \ (K_{\beta}) $                         & 19.61                                       & 0.632 \AA                                       \\ \hline
 	\end{tabular}
-	\caption{\centering Longueurs d’onde des rayons X émissent par le molybdène lors transition électronique $ K_{\alpha} $ et $ K_{\beta} $}
+	\caption{\centering Longueurs d'ondes des rayons X émis par le molybdène lors des transitions électroniques $K_{\alpha}$ et $K_{\beta}$}
 	\label{tab: Transition nergitique en les diffrentes couche du molybdne et les diffrentes longueurs donde misse par les transitions}
 \end{table}
 
@@ -64,13 +64,18 @@ Dans cette partie, nous allons analyser le plan (200) un monocristal de NaCl à 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"Réflexion de Bragg/Machine diffraction RX"}
-	\caption{\centering Photo du système de diffraction des rayons X avec (1) : collimateur, (2) : filtre de Zn, (3) : monocristal de NaCl, (4): tube compteur, (5) : angle $\theta$, (6) : rayon X, (7) : plan (200) du monocristal de NaCl }
+	\caption{\centering Photo du système de diffraction des rayons X avec (1) : collimateur, (2) : filtre de Zn, (3) : monocristal de NaCl, (4): Compteur Geiger Muller, (5) : angle $\theta$, (6) : rayon X, (7) : plan (200) du monocristal de NaCl }
 	\label{fig:machine-diffraction-rx}
 \end{figure}
 
 
 
-Pour analyser le plan (200) du monocristal NaCl, le système de diffraction des rayons X déplace le système \{tube compteur + monocristal\} d'un angle $\theta$. Pour notre analyse, nous aurons $\theta$ compris dans l'intervalle $[4^\circ, 24^\circ]$ avec un pas de $\Delta \beta = 0.1^\circ$.
+Pour analyser le plan (200) du monocristal NaCl, le système de diffraction des rayons X déplace le système \{tube compteur + monocristal\} d'un angle $\theta$. Pour notre analyse, nous aurons $\theta$ compris dans l'intervalle $[4^\circ, 24^\circ]$ avec un pas de $\Delta \theta = 0.1^\circ$. De plus, dans un premier temps, nous réaliserons la mesure sans le filtre au Zn, puis nous effectuerons une seconde mesure avec le filtre et commenterons les effets de ce filtre sur la réponse.
+
+
+
+
+
 
 
 
@@ -97,13 +102,13 @@ L'objectif de cette partie est déterminer le paramètre de maille $a_0$ de la m
 	\textbf{Interprétation avant expérience}
 \end{flushleft}
 
-
+\vspace{-0.5cm}
 
 Dans un premier temps, nous pouvons affirmer que nous obtenons directement une transition $K_{\beta}$, car la longueur d'onde émise par le photon lors de cette transition est la plus courte par rapport à celle émise lors d'une transition $K_{\alpha_1}$ ou $K_{\alpha_2}$, conformément à la loi de Bragg (équation \ref{eq:Loi_de_Bragg}). La nécessité d'un angle faible pour la raie $K_{\beta}$ justifie donc que la première raie observée est bien une $K_{\beta}$.
 
-Dans un second temps, nous avons l'angle $\theta_{K_\beta}$ pour la première raie de $K_{\beta}$ et $\theta_2$ pour l'angle de la seconde raie. Or, nous pouvons établir l'inégalité suivante :
+Dans un second temps, nous avons l'angle $\theta_{K_\beta}$ pour la première raie de $K_{\beta}$ et $\theta_{2_{K_{\beta}}} $ pour l'angle de la seconde raie. Or, nous pouvons établir l'inégalité suivante :
 \begin{equation} \label{eq:Inegalite_theta}
-	\theta_2 < 2\theta_{K_\beta}
+	\theta_{2_{K_{\beta}}} < 2\theta_{K_\beta}
 \end{equation}
 
 Par conséquent, d'après la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) et l'inégalité \ref{eq:Inegalite_theta}, nous n'avons pas atteint la raie $K_{\beta}$ où $n=2$. Nécessairement, nous observons la raie $K_{\alpha}$ sur la figure \ref{fig:spectre-de-diffraction-de-nacl}.
@@ -118,7 +123,7 @@ Par conséquent, d'après la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) et l
 
 
 \begin{flushleft}
-	Nous parlons de spectre en intensité avec l'intensité du rayon X incident en proportionnel aux nombre de coup par second comptabilisé par le tube de comptage présent sur la figure \ref{fig:machine-diffraction-rx}.
+	Nous parlons de spectre en intensité avec l'intensité du rayon X incident en proportionnel aux nombre de coup par second comptabilisé par le compteur Geiger Muller présent sur la figure \ref{fig:machine-diffraction-rx}.
 	
 	D'autre part, en observant la figure \ref{fig:spectre-de-diffraction-de-nacl}, nous obtenons le tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200}.
 \end{flushleft}
@@ -142,7 +147,7 @@ Par conséquent, d'après la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) et l
 
 
 \newpage
-De cela on trace la figure \ref{fig:courbetendance} et l'aide du programme Python (cf figure \ref{fig:photocode})
+Du tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200}, on trace la figure \ref{fig:courbetendance} et l'aide du programme Python (cf figure \ref{fig:photocode})
 
 
 \begin{figure}[h!]
@@ -153,7 +158,7 @@ De cela on trace la figure \ref{fig:courbetendance} et l'aide du programme Pytho
 \end{figure}
 
 \begin{flushleft}
-	Ensuite de cette courbe nous pouvons déduire le paramètre de maille $a_0$ du monocristal car d'après la figure \ref{fig:cristalnacl} on a :
+De cette courbe nous pouvons déduire le paramètre de maille $a_0$ du monocristal car d'après la figure \ref{fig:cristalnacl} on a :
 	
 	\begin{equation}\label{eq: paramètre de maille et d_200}
 		a_0=2d_{200}
@@ -167,14 +172,14 @@ De plus, si on applique la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) au pla
 \end{equation}
 	
 	
-Donc, d'après \ref{eq: paramètre de maille et d_200} l'équation \ref{eq:Loi_de_Bragg_NaCl_200} devient :
+Donc, d'après (\ref{eq: paramètre de maille et d_200}) l'équation (\ref{eq:Loi_de_Bragg_NaCl_200}) devient :
 	
 	\begin{equation}\label{eq: Bragg et paramètre de maille}
 		n \times \lambda = a_0sin(\theta)
 	\end{equation}
 	
 	
-	Donc d'après l'équation \ref{eq: Bragg et paramètre de maille}, $a_0$ est le coefficient directeur de la courbe  de tendance tracer sur la figure \ref{fig:courbetendance}, on en déduit donc :
+	Donc d'après l'équation (\ref{eq: Bragg et paramètre de maille}), $a_0$ est le coefficient directeur de la courbe  de tendance tracer sur la figure \ref{fig:courbetendance}, on en déduit donc :
 	
 	\begin{equation}
 		\boxed{a_0 = 564.6 \ pm}
@@ -186,8 +191,19 @@ Donc, d'après \ref{eq: paramètre de maille et d_200} l'équation \ref{eq:Loi_d
 
 %%% Interprétation 
 \begin{flushleft}
-	\textbf{Vérification :}
-	Si on représente le plan (200) du monocristal de NaCL vue de dessus on obtient la figure \ref{fig:Plan (200) du monocristal de NaCl vu de dessus}
+	\vspace{-2cm}
+\textbf{Vérification :}
+
+En représentant le plan (200) du monocristal de NaCl vu de dessus, nous obtenons la figure \ref{fig:Plan (200) du monocristal de NaCl vu de dessus} en supposant que le cristal respecte ses deux règles de stabilité :
+
+\begin{itemize}
+	\item Il y a un contact (ou tangence) entre les ions $Na^+$ et $Cl^-$ les plus proches voisins;
+	\item Il n'existe aucun contact entre anions-anions ou cations-cations.
+\end{itemize}
+	
+ 
+
+
 	\input{Tikz/Cristal/Plan_200}
 	
 	D'après la figure \ref{fig:Plan (200) du monocristal de NaCl vu de dessus}, on en déduit que :
@@ -210,14 +226,14 @@ avec
 		a_0 = 558 \ pm
 	\end{equation}
 	
-On a un écart de $ \pm 6.6\  pm$,  soit une de erreur de $1.1 \ \%$
+On a un écart de $ \pm \ 6.6\  pm$,  soit une de erreur de $1.1 \ \%$
 
 \textbf{Interprétation :}
 
 D'après la figure \ref{fig:courbetendance} nous obtenons une courbe de tendance de la forme :
 
 \begin{equation}
-	a x + b
+	y=a x + b
 \end{equation}
 où :
 \begin{itemize}
@@ -227,29 +243,59 @@ où :
 \vspace{0.2cm}
 Ainsi, cela signifie que lorsque nous avons un rayon X qui arrive de manière colinéaire au plan (200) avec un angle $\theta = 0^\circ$, nous obtenons $n \times \lambda = 0.4722 \ pm$. Il en résulte qu'il existe un rayon X diffracté par le plan (200), ce qui semble incohérent. Cependant, il est possible d'admettre une certaine incertitude sur l'angle $\theta$, ce qui expliquerait pourquoi notre valeur de $b$ n'est pas nulle.
 
-\newpage
-On calcule le rapport pour chaque ordre de diffraction $n$:
+
+
+On pose :
 
 \begin{equation}
 	R = \frac{\sin(\theta_{K_{\alpha}})}{\sin(\theta_{K_{\beta}})}
 \end{equation}
 
+On calcule la valeur de R pour chaque ordre de diffraction n grâce au tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200} et on les compare à la valeur théorique donnée par la loi de Bragg appliquée au plan (200) (équation \ref{eq:Loi_de_Bragg_NaCl_200}), ce qui nous permet d'obtenir le tableau \ref{tab:R en fonction de n}.
+	
+	
+	
+	
 
-L'intérêt du filtre de Zn consiste à supprimer les raies présentant la plus forte énergie. Dans le cas d'une analyse plus complexe de plusieurs plans du cristal, cela nous permet de réduire la quantité d'informations reçues par le logiciel et facilite ainsi l'interprétation de la courbe obtenue. 
-$K_{\beta}$ à une énergie supérieure à l'énergie des électrons de cœurs $ K $ en comme le filtre de Zn diminue l'énergie de l'électron qu'il transmet donc on favorise le pic de $K_{\alpha}$.
+
 
 \begin{table}[h!]
 	\centering
-	\begin{tabular}{|c|c|}
+	\begin{tabular}{|c|c|c|}
 		\hline
-		R & n \\ \hline
-		1.126 & 1 \\ \hline
-		1.121& 2 \\ \hline
-		1.122& 3 \\ \hline
+		R (théorique)& R (mesuré) & n \\ \hline
+		&1.126 & 1 \\ \hline
+		&1.121& 2 \\ \hline
+		& 1.122& 3 \\ \hline
 	\end{tabular}
 	\caption{R en fonction de n}
 	\label{tab:R en fonction de n}
 \end{table}
+
+Exemple de calcul de R :
+
+\begin{equation*}
+	\begin{split}
+		R & = \frac{\sin(6.4)}{\sin(7.2)}  \\
+		& = 1.126 
+	\end{split}		
+\end{equation*}
+
+
+
+Nous remarquons que la valeur de $R$ est constante au centième près, ce qui valide la théorie selon laquelle les raies $K_{\alpha}$ et $K_{\beta}$ se répètent avec une période  $T \in \mathbb{R^*_+}$, confirmant ainsi que $R$ est une constante.
+
+
+
+
+
+
+
+ 
+Ensuite, l'intérêt du filtre de Zn consiste à supprimer les raies présentant la plus forte énergie. Lorsqu'un rayonnement X dû à une transition $K_{\beta}$ arrive au filtre de Zn, il possède suffisamment d'énergie pour ioniser l'atome de Zn, entraînant ainsi sa disparition. C'est pourquoi, comme on peut le voir sur la courbe rouge de la figure \ref{fig:spectre-de-diffraction-de-nacl}, les pics de $K_{\beta}$ sont fortement atténués, favorisant ainsi le pic de $K_{\alpha}$. De plus, dans le cas d'une analyse plus complexe de plusieurs plans du cristal, cela nous permet de réduire la quantité d'informations reçues par le logiciel, ce qui facilite l'interprétation de la courbe obtenue. Sans le filtre, l'information utile serait répétée deux fois.
+
+
+
 
 
 \end{flushleft}
