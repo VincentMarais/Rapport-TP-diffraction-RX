@@ -3,18 +3,18 @@
 	% Dessiner le métal
 	\fill[gray!20] (0,0) rectangle ++(6,-2.2);
 	\draw[thick] (0,0) -- ++(6,0);
-	\node[anchor=north] at (3,0) {Cristal de Zn};
+	\node[anchor=north] at (3.2,0) {Filtre de Zn};
 	
 	% Dessiner les électrons dans le métal
-	\foreach \x/\y in {0.7/-0.5,2/-1.25,4/-1.75/-0.5}{
+	\foreach \x/\y in {0.7/-0.5,2/-1.25,4/-2/-0.5}{
 		\draw (\x,\y) node[circle,fill,inner sep=2pt, color=red,label={east:${\color{red}e^-}$}] {}; 
 	}
 	
 	% Dessiner le photon incident
-	\draw[photon,green] (-1,1) -- node[above=4mm,font=\footnotesize] {RX $(K_{\beta})$} ((4,-1.75);
+	\draw[photon,green] (-1,1) -- node[above=4mm,font=\footnotesize] {RX $(K_{\beta})$} ((4,-2);
 	
 	% Dessiner l'électron éjecté
-	\draw[-stealth,blue,thick] (4,-1.75) -- node[above=-1mm,font=\footnotesize, sloped] {Électron éjecté} ++(3,2);
+	\draw[-stealth,blue,thick] (4,-2) -- node[above=-1mm,font=\footnotesize, sloped] {Électron éjecté} ++(2,2.5);
 	
 	
 	\draw[<->, thick] (7,0) -- node[midway, right,font=\footnotesize] {Bande de conduction} (7,-1);
