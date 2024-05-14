@@ -59,7 +59,7 @@ Et enfin, on réalise le tableau \ref{tab: Transition nergitique en les diffrent
 
 
 \subsubsection{Mesure de l’intensité ($I$) en fonction de l’angle ($\theta$)}
-Dans cette partie, nous allons analyser le plan (200) un monocristal de NaCl à l'aide d'un système de diffraction des rayons X (figure \ref{fig:machine-diffraction-rx})
+Dans cette partie, nous allons analyser le plan (200) d'un monocristal de NaCl à l'aide d'un système de diffraction des rayons X (figure \ref{fig:machine-diffraction-rx})
 
 \begin{figure}[h!]
 	\centering
@@ -70,7 +70,7 @@ Dans cette partie, nous allons analyser le plan (200) un monocristal de NaCl à 
 
 
 
-Pour analyser le plan (200) du monocristal NaCl, le système de diffraction des rayons X déplace le système \{tube compteur + monocristal\} d'un angle $\theta$. Pour notre analyse, nous aurons $\theta$ compris dans l'intervalle $[4^\circ, 24^\circ]$ avec un pas de $\Delta \theta = 0.1^\circ$. De plus, dans un premier temps, nous réaliserons la mesure sans le filtre au Zn, puis nous effectuerons une seconde mesure avec le filtre et commenterons les effets de ce filtre sur la réponse.
+Pour analyser le plan (200) du monocristal de NaCl, le système de diffraction des rayons X déplace le système \{tube compteur + monocristal\} d'un angle $\theta$. Pour notre analyse, nous aurons $\theta$ compris dans l'intervalle $[4^\circ, 24^\circ]$ avec un pas de $\Delta \theta = 0.1^\circ$. De plus, dans un premier temps, nous réaliserons la mesure sans le filtre au Zn, puis nous effectuerons une seconde mesure avec le filtre et commenterons les effets de ce filtre sur la réponse.
 
 
 
@@ -108,7 +108,7 @@ Après avoir lancé l'expérience grâce au système présenté figure \ref{fig:
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{"Réflexion de Bragg/Spectre de diffraction de NaCl"}
-	\caption{\centering Spectre en intensité du monocristal en fonction de l'angle $\beta$ équivalent à l'angle $\theta$ de la figure \ref{fig:machine-diffraction-rx}, \textbf{courbe noir} : Spectre sans le filtre Zn, {\color{red}\textbf{courbe rouge}} : Spectre avec le filtre Zn, $ .{\color{blue} \theta_1} = 6.4^\circ$ : angle de diffraction de la 1ère raie et $ {\color{blue} \theta_2}=7.2^\circ$ : angle de diffraction de la 2nd raie  }
+	\caption{\centering Spectre en intensité du monocristal en fonction de l'angle $\beta$ équivalent à l'angle $\theta$ de la figure \ref{fig:machine-diffraction-rx}, \textbf{courbe noir} : Spectre sans le filtre Zn, {\color{red}\textbf{courbe rouge}} : Spectre avec le filtre Zn, $ {\color{blue} \theta_1} = 6.4^\circ$ : angle de diffraction de la 1ère raie et $ {\color{blue} \theta_2}=7.2^\circ$ : angle de diffraction de la 2nd raie  }
 	\label{fig:spectre-de-diffraction-de-nacl}
 \end{figure}
 
@@ -116,13 +116,13 @@ Après avoir lancé l'expérience grâce au système présenté figure \ref{fig:
 
 	
 \subsubsection{Interprétation de la mesure de l’intensité ($I$) en fonction de l’angle ($\theta$)}
-Nous parlons de spectre en intensité avec l'intensité du rayon X incident en proportionnel aux nombre de coup par second comptabilisé par le compteur Geiger Muller présent sur la figure \ref{fig:machine-diffraction-rx}.
+Dans tout la suite nous parlons de spectre en intensité avec l'intensité du rayon X incident est proportionnel aux nombre de coup par second comptabilisé par le compteur Geiger Muller présent sur la figure \ref{fig:machine-diffraction-rx}.
 	
 \begin{flushleft}
 	\textbf{Type de transition électronique pour la première raie}	
 \end{flushleft}
 
-Dans un premier temps, nous pouvons affirmer que nous obtenons la diffraction d'angle $\theta_1$ d'un photon dû à une transition $K_{\beta}$, car la longueur d'onde émise par ce photon lors de cette transition est la plus courte par rapport à celui émis lors d'une transition $K_{\alpha_1}$ ou $K_{\alpha_2}$ d'après le tableau \ref{tab: Transition nergitique en les diffrentes couche du molybdne et les diffrentes longueurs donde misse par les transitions}.
+Dans un premier temps, nous pouvons affirmer que nous obtenons la diffraction d'angle $\theta_1$ d'un photon dû à une transition $K_{\beta}$, car la longueur d'onde émise par ce photon lors de cette transition est la plus courte par rapport à celle émis lors d'une transition $K_{\alpha_1}$ ou $K_{\alpha_2}$ d'après le tableau \ref{tab: Transition nergitique en les diffrentes couche du molybdne et les diffrentes longueurs donde misse par les transitions}.
 
 Conformément à la loi de Bragg (équation \ref{eq:Loi_de_Bragg}) il y a nécessité d'un angle faible pour la raie $K_{\beta}$ justifie donc que la première raie observée est bien une $K_{\beta}$.
 
@@ -152,8 +152,14 @@ Par conséquent, selon (\ref{eq: constant Bragg}) et (\ref{eq: photon K_beta + B
 	\frac{\sin(\theta_{2})}{2} = \sin(\theta_{1})
 \end{equation}
 
-Cependant, après calcul à l'aide de la figure \ref{fig:spectre-de-diffraction-de-nacl} :
+Cependant, après calcul à l'aide de la figure  \ref{fig:spectre-de-diffraction-de-nacl} :
+\begin{equation}
+	\frac{\sin(\theta_{2})}{2} = 0.063 \ \text{et } \sin(\theta_{1}) = 0.111
+\end{equation}
 
+
+
+Donc :
 \begin{equation} \label{eq:Inegalite_theta}
 	\frac{\sin(\theta_{2})}{2} < \sin(\theta_{1})
 \end{equation}
@@ -161,7 +167,7 @@ Cependant, après calcul à l'aide de la figure \ref{fig:spectre-de-diffraction-
 Ainsi, $(H)$ n'est pas vérifié, ce qui signifie nécessairement que nous avons une raie $K_{\alpha}$.
 
 \newpage
-Donc en appliquant périodiquement ce raisonnement nous obtenons le tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200}.
+En appliquant périodiquement ce raisonnement nous obtenons le tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le_plan_200}.
 
 
 \begin{table}[h!]
@@ -189,12 +195,12 @@ Du tableau \ref{tab:Pic_de_diffraction_et_d'interférence_du_cristal_NaCl_sur_le
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.1\linewidth]{"Réflexion de Bragg/Courbe_tendance"}
-	\caption{Courbe de tendance de $n \times \lambda $(pm) et fonction de 	$\sin(\theta)$ }
+	\caption{Courbe de tendance de $n \times \lambda $ (pm) et fonction de 	$\sin(\theta)$ }
 	\label{fig:courbetendance}
 \end{figure}
 
 
-De cette courbe nous pouvons déduire le paramètre de maille $a_0$ du monocristal car d'après la figure \ref{fig:cristalnacl} on a :
+De cette courbe nous pouvons en déduire le paramètre de maille $a_0$ du monocristal car d'après la figure \ref{fig:cristalnacl} on a :
 	
 	\begin{equation}\label{eq: paramètre de maille et d_200}
 		a_0=2d_{200}
@@ -215,9 +221,9 @@ Donc, d'après (\ref{eq: paramètre de maille et d_200}) l'équation (\ref{eq:Lo
 	\end{equation}
 	
 	
-	Donc d'après l'équation (\ref{eq: Bragg et paramètre de maille}), $a_0$ est le coefficient directeur de la courbe  de tendance tracer sur la figure \ref{fig:courbetendance}, on en déduit donc :
+	Par conséquent, d'après l'équation (\ref{eq: Bragg et paramètre de maille}), $a_0$ est le coefficient directeur de la courbe  de tendance tracer sur la figure \ref{fig:courbetendance}, on en déduit donc :
 	
-	\begin{equation}
+	\begin{equation} \label{eq: paramètre de maille NaCl avec système RX}
 		\boxed{a_0 = 564.6 \ pm}
 	\end{equation}
 	
@@ -313,7 +319,7 @@ Pour le photon émis par une transition électronique $(K_{\beta})$ de longueur 
 	2 d_{200}\sin(\theta_{K_{\beta}}) = n\lambda_{K_{\beta}}
 \end{equation}
 
-Donc d'après (\ref{eq: Bragg_photon_K_alpha}) et \ref{eq: Bragg_photon_K_beta} on a :
+Donc d'après (\ref{eq: Bragg_photon_K_alpha}) et (\ref{eq: Bragg_photon_K_beta}) on a :
 \begin{equation}\label{eq:R_{th}}
 	R_{th} = \frac{\lambda_{K_{\alpha}}}{\lambda_{K_{\beta}}} 
 \end{equation}

@@ -5,7 +5,8 @@
 \usepackage{filecontents}
 \pgfplotsset{compat=newest}
 
-\usepackage{hyperref}
+\usepackage[pdfborder={0 0 0}]{hyperref} % Enveler le cadre rouge des refs
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
@@ -193,7 +194,7 @@ où:
 \subsection{Incertitude de type B}
 Soit une grandeur physique $f$ qui dépend des grandeurs physique $(x,y,...)$ 
 
-La formule de propagation des erreurs nous donne l'incertitude de f :
+La formule de propagation des erreurs nous donne l'incertitude de $f$ :
 
 \begin{equation}\label{eq: Type B}
 	\Delta f(x,y,...) = \sqrt{\left ( \Delta x \right )^2 \left ( \frac{\partial f}{\partial x} \right )^2 + \left ( \Delta y \right )^2 \left ( \frac{\partial f}{\partial y} \right )^2 + .... }

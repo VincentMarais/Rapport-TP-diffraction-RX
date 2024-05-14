@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.7)  20 OCT 2023 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.7)  30 MAR 2024 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,24 +980,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (TP_RX.aux)
 \openout1 = `TP_RX.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1027,13 +1027,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 74.
 (TP_RX.out) (TP_RX.out)
 \@outlinefile=\write4
 \openout4 = `TP_RX.out'.
 
-LaTeX Info: Redefining \degres on input line 73.
-LaTeX Info: Redefining \up on input line 73.
+LaTeX Info: Redefining \degres on input line 74.
+LaTeX Info: Redefining \up on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1208,7 +1208,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 61.
 
-<Réflexion de Bragg/Machine diffraction RX.jpg, id=171, 3034.33624pt x 2090.81
+<Réflexion de Bragg/Machine diffraction RX.jpg, id=175, 3034.33624pt x 2090.81
 125pt>
 File: Réflexion de Bragg/Machine diffraction RX.jpg Graphic file (type jpg)
 <use Réflexion de Bragg/Machine diffraction RX.jpg>
@@ -1216,7 +1216,7 @@ Package pdftex.def Info: Réflexion de Bragg/Machine diffraction RX.jpg  used o
 n input line 66.
 (pdftex.def)             Requested size: 338.58632pt x 233.27597pt.
 [2 <./Réflexion de Bragg/Machine diffraction RX.jpg>] (Tikz/Cristal/NaCl.tex)
-<Réflexion de Bragg/Spectre de diffraction de NaCl.png, id=179, 1112.35574pt x
+<Réflexion de Bragg/Spectre de diffraction de NaCl.png, id=183, 1112.35574pt x
  597.432pt>
 File: Réflexion de Bragg/Spectre de diffraction de NaCl.png Graphic file (type
  png)
@@ -1251,18 +1251,18 @@ LaTeX Warning: Command \r invalid in math mode on input line 138.
 
 [4]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-71.
+77.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<Réflexion de Bragg/Courbe_tendance.pdf, id=209, 1110.06725pt x 545.20491pt>
+<Réflexion de Bragg/Courbe_tendance.pdf, id=214, 1110.06725pt x 545.20491pt>
 File: Réflexion de Bragg/Courbe_tendance.pdf Graphic file (type pdf)
 <use Réflexion de Bragg/Courbe_tendance.pdf>
 Package pdftex.def Info: Réflexion de Bragg/Courbe_tendance.pdf  used on input
- line 191.
+ line 197.
 (pdftex.def)             Requested size: 532.0695pt x 261.32101pt.
 
-Overfull \hbox (48.37263pt too wide) in paragraph at lines 191--192
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
@@ -1270,10 +1270,10 @@ Overfull \hbox (48.37263pt too wide) in paragraph at lines 191--192
 <./Réflexion de Bragg/Courbe_tendance.pdf>] (Tikz/Cristal/Plan_200.tex)
 [6]
 
-LaTeX Warning: Command \r invalid in math mode on input line 330.
+LaTeX Warning: Command \r invalid in math mode on input line 336.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 330.
+LaTeX Warning: Command \r invalid in math mode on input line 336.
 
 [7] (Tikz/Photoélectrique/Photoélectrique.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1285,50 +1285,50 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 )) [8]
 (Méthode_de_Debye_Scherrer/Méthode de Debye-Scherrer ou méthode des poudres.
 tex
-<Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png, id=315, 338.4645pt 
+<Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png, id=321, 338.4645pt 
 x 331.2375pt>
 File: Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png Graphic file (t
 ype png)
 <use Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png>
 Package pdftex.def Info: Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.
 png  used on input line 11.
-(pdftex.def)             Requested size: 338.58632pt x 331.37819pt.
+(pdftex.def)             Requested size: 290.22107pt x 284.04495pt.
  [9 <./Méthode_de_Debye_Scherrer/Méthode_de_Debye_Scherrer.png>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 87.
+LaTeX Warning: Command \r invalid in math mode on input line 99.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 87.
+LaTeX Warning: Command \r invalid in math mode on input line 99.
 
 [10]
 
-LaTeX Warning: Command \r invalid in math mode on input line 97.
+LaTeX Warning: Command \r invalid in math mode on input line 109.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 97.
+LaTeX Warning: Command \r invalid in math mode on input line 109.
 
 [11] [12]
 
-LaTeX Warning: Command \r invalid in math mode on input line 253.
+LaTeX Warning: Command \r invalid in math mode on input line 315.
 
-) [13] [14] [15]
-<Python/Photo_code.png, id=372, 644.4075pt x 422.7795pt>
+) [13] [14] [15] [16]
+<Python/Photo_code.png, id=399, 644.4075pt x 422.7795pt>
 File: Python/Photo_code.png Graphic file (type png)
 <use Python/Photo_code.png>
-Package pdftex.def Info: Python/Photo_code.png  used on input line 207.
+Package pdftex.def Info: Python/Photo_code.png  used on input line 208.
 (pdftex.def)             Requested size: 483.69687pt x 317.35478pt.
- [16 <./Python/Photo_code.png>] (TP_RX.aux)
+ [17 <./Python/Photo_code.png>] (TP_RX.aux)
 Package rerunfilecheck Info: File `TP_RX.out' has not changed.
-(rerunfilecheck)             Checksum: C483E35B8F73028751BB58EA49C01857;3557.
+(rerunfilecheck)             Checksum: 2236D94B5AE11F2EDEAC2B3DEF8CE01E;3567.
  ) 
 Here is how much of TeX's memory you used:
- 36072 strings out of 476315
- 832742 string characters out of 5787197
- 1873068 words of memory out of 5000000
- 55791 multiletter control sequences out of 15000+600000
+ 36085 strings out of 476315
+ 833077 string characters out of 5787197
+ 1874068 words of memory out of 5000000
+ 55798 multiletter control sequences out of 15000+600000
  571285 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,16n,104p,810b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,104p,859b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
 fb><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.p
@@ -1347,9 +1347,9 @@ ers/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Use
 rs/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/User
 s/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on TP_RX.pdf (19 pages, 2035339 bytes).
+Output written on TP_RX.pdf (20 pages, 2042145 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
